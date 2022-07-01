@@ -1,0 +1,10 @@
+//
+//  Tipulator.xcconfig
+//  Tipulator
+//
+//  Created by Sophia Teutschler on 02.02.13.
+//  Copyright (c) 2013 Sophia Teutschler. All rights reserved.
+//
+
+// HockeySDK
+#include "../Vendor/HockeySDK/Support/HockeySDK.xcconfig"

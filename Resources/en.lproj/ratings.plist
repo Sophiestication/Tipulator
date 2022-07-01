@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>5</key>
+	<string>(poor)</string>
+	<key>10</key>
+	<string>(fair)</string>
+	<key>15</key>
+	<string>(average)</string>
+	<key>20</key>
+	<string>(great)</string>
+	<key>25</key>
+	<string>(super)</string>
+</dict>
+</plist>

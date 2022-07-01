@@ -1,0 +1,46 @@
+Tipulator is a beautiful, fun and easy to use tip calculator for your iPhone and iPod touch.
+
+Tipulator allows you to:
+- Easily split the check among friends and colleagues.
+- Choose from various rounding options.
+- Calculate tips excluding sales tax.
+- Use the palindrome feature to prevent frauds.
+
+Give it a try and tell us what you think.
+
+
+APP KEYWORDS
+Tip,Tips,Tip Calculator,Tipping,Tipper,Calculator,TipCalc,Gratuitous,iTip,Split,Bill,Cheque
+
+
+Tipulator 3.1.3
+- There is no longer a next/done button on the iPhone 5 and iPod touch (5th Generation). Drag down the guest check to dismiss the keyboard instead.
+- (Very) minor graphic tweaks.
+- If you like Tipulator, please consider leaving a review. That helps us a lot. Thanks!
+
+Tipulator 3.1.2
+- iOS 6.1 compatibility fixes.
+- Tipulator no longer mutes audio playback on launch.
+- Minor layout tweaks.
+❤ If you like Tipulator, please consider leaving a review. That helps us a lot. Thanks!
+
+Tipulator 3.1.1
+- "Shake to Clear" now selects the check amount field.
+- Fixed an issue where Tipulator would add a rounded tax amount.
+❤ If you like Tipulator, please consider leaving a review. That helps us a lot. Thanks!
+
+Tipulator 3.1
+- We re-added the palindrome feature due to a quite popular demand.
+- The check total now includes the specified tax amount. This is what the majority of customers prefer.
+- Rounding the total now also adjusts the tip amount.
+- We added a clear button directly to the tax field to make reseting the tax percentage more obvious.
+- Starting the app no longer mutes the music player.
+⚠ Tipulator now requires iOS 6.0 or later.
+❤ If you like Tipulator, please consider leaving a review. That helps us a lot. Thanks!
+
+Tipulator 3.0
+- A whole new fresh and modernized design, ideal for the iPhone 5 and iPod touch (5th Generation).
+- Calculate totals excluding sales tax.
+- Disable "Shake to Clear" in the System Settings.
+⚠ Tipulator now requires iOS 6.0 or later.
+⚠ We removed the palindrome feature since it confused too many customers.

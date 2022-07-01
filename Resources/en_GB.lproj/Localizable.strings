@@ -1,0 +1,49 @@
+/* 
+  Localizable.strings
+  Tipulator
+
+  Created by Sophia Teutschler on 16.11.12.
+  Copyright (c) 2012 Sophia Teutschler. All rights reserved.
+*/
+
+"DONE_BUTTONITEM" = "Done";
+"NEXT_BUTTONITEM" = "Next";
+
+"CHECKAMOUNT_LABEL" = "Bill Amount";
+
+"TIPAMOUNT_LABEL" = "%1$@ Tip";
+"TAXAMOUNT_LABEL" = "%1$@ Tax";
+
+"TOTALAMOUNT_LABEL" = "Grand Total";
+
+"SPLITCHECK_LABEL" = "Split Bill";
+
+"TIP_PERCENTAGE_ZERO" = "No Tip";
+"TIP_SPLIT_ZERO" = "No Split";
+"TIP_SPLIT_CHECK" = "Split Bill";
+
+"PICKER_WIDTH_PERCENTAGE" = "300";
+"PICKER_INDENT_PERCENTAGE" = "              ";
+
+"PICKER_WIDTH_SPLIT" = "130";
+
+"PICKER_WIDTH_ROUNDING" = "300";
+"PICKER_INDENT_ROUNDING" = "           ";
+
+"ROUNDINGOPTION_ROUND_TOTAL_UP" = "Round total up";
+"ROUNDINGOPTION_ROUND_TOTAL_DOWN" = "Round total down";
+"ROUNDINGOPTION_NONE" = "Exact";
+"ROUNDINGOPTION_PALINDROME" = "Palindrome total";
+"ROUNDINGOPTION_ROUND_TIP_DOWN" = "Round tip down";
+"ROUNDINGOPTION_ROUND_TIP_UP" = "Round tip up";
+
+"SPLIT_TITLE" = "%1$@ people";
+"SPLIT_ZERO_TITLE" = "No Split";
+
+"TAX_ZERO_TITLE" = "No Tax";
+
+"CHECKNUMBER_LABEL" = "BILL #";
+"CHECKDATE_LABEL" = "DATE";
+
+"accessibility.label.clear" = "Clear";
+"accessibility.label.decimalSeparator" = "Decimal Separator";

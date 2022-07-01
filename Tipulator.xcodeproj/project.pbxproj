@@ -1,0 +1,983 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC02999816655590007C0945 /* NSBundle+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = EC02999716655590007C0945 /* NSBundle+Localization.m */; };
+		EC02999E166555C3007C0945 /* NSArray+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = EC02999D166555C3007C0945 /* NSArray+Additions.m */; };
+		EC10C41016BD620800607671 /* libHockeySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC10C40916BD61D300607671 /* libHockeySDK.a */; };
+		EC10C41216BD621C00607671 /* CrashReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC10C41116BD621C00607671 /* CrashReporter.framework */; };
+		EC10C41316BD624400607671 /* HockeySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EC10C40B16BD61D300607671 /* HockeySDKResources.bundle */; };
+		EC17E23116655C8D001C17B1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC17E22F16655C8D001C17B1 /* Localizable.strings */; };
+		EC24496717451FE2004DCB1E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC24496617451FE2004DCB1E /* Security.framework */; };
+		EC2D3FE8166A64DE005A5C78 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE7C27D16544C7500F23D76 /* background.png */; };
+		EC2D3FE9166A64DE005A5C78 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE7C27E16544C7500F23D76 /* background@2x.png */; };
+		EC2D3FEA166A64DE005A5C78 /* background-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE7C27C16544C7500F23D76 /* background-568h@2x.png */; };
+		EC6A5A0B165D676400E2D266 /* delicious.aif in Resources */ = {isa = PBXBuildFile; fileRef = EC6A5A0A165D676400E2D266 /* delicious.aif */; };
+		EC6A5A29165D681400E2D266 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6A5A28165D681400E2D266 /* AVFoundation.framework */; };
+		EC6F4C7B1657E20E004090A2 /* TIPNumericKeypadView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6F4C761657E20E004090A2 /* TIPNumericKeypadView.m */; };
+		EC6F4C7C1657E20E004090A2 /* TIPNumericKeypadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6F4C781657E20E004090A2 /* TIPNumericKeypadButton.m */; };
+		EC6F4C8B1657E39E004090A2 /* keypad-button-background-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6F4C7F1657E39E004090A2 /* keypad-button-background-highlighted.png */; };
+		EC6F4C8C1657E39E004090A2 /* keypad-button-background-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6F4C801657E39E004090A2 /* keypad-button-background-highlighted@2x.png */; };
+		EC6F4C8D1657E39E004090A2 /* keypad-background.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6F4C811657E39E004090A2 /* keypad-background.png */; };
+		EC6F4C8E1657E39E004090A2 /* keypad-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6F4C821657E39E004090A2 /* keypad-background@2x.png */; };
+		EC6F4C931657E39E004090A2 /* keypad-button-background.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6F4C871657E39E004090A2 /* keypad-button-background.png */; };
+		EC6F4C941657E39E004090A2 /* keypad-button-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6F4C881657E39E004090A2 /* keypad-button-background@2x.png */; };
+		EC6F4C951657E39E004090A2 /* keypad-button-background-maximized.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6F4C891657E39E004090A2 /* keypad-button-background-maximized.png */; };
+		EC6F4C961657E39E004090A2 /* keypad-button-background-maximized@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6F4C8A1657E39E004090A2 /* keypad-button-background-maximized@2x.png */; };
+		EC6F4C991657E4CD004090A2 /* TIPNumericKeypadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6F4C981657E4CD004090A2 /* TIPNumericKeypadViewController.m */; };
+		EC8B18241658365A00827D4C /* TIPTipAmountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8B18231658365A00827D4C /* TIPTipAmountViewController.m */; };
+		EC8B182C1659721700827D4C /* TIPSplitCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8B182B1659721700827D4C /* TIPSplitCheckViewController.m */; };
+		EC8B18301659899300827D4C /* ratings.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC8B182E1659899300827D4C /* ratings.plist */; };
+		EC9648391668CE5300CF4157 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9648381668CE5300CF4157 /* AudioToolbox.framework */; };
+		EC96483B1668CF9100CF4157 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EC96483A1668CF9100CF4157 /* Settings.bundle */; };
+		EC96483D1668D4FB00CF4157 /* UserDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC96483C1668D4FB00CF4157 /* UserDefaults.plist */; };
+		EC9E65471663D2110071BA6D /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9E65461663D2110071BA6D /* UIImage+Additions.m */; };
+		ECBA75171656A5D50088C47F /* UIColor+Tipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBA75161656A5D50088C47F /* UIColor+Tipulator.m */; };
+		ECBA75651656C9950088C47F /* SUIImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBA75351656C9950088C47F /* SUIImageCache.m */; };
+		ECBA75661656C9950088C47F /* SUIImageStyles.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBA75371656C9950088C47F /* SUIImageStyles.m */; };
+		ECBA75671656C9950088C47F /* SUIPDFImageRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBA75391656C9950088C47F /* SUIPDFImageRenderer.m */; };
+		ECBA75691656C9950088C47F /* SUIStyledImageRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBA753D1656C9950088C47F /* SUIStyledImageRenderer.m */; };
+		ECBA756D1656C9950088C47F /* UIColor+Components.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBA75451656C9950088C47F /* UIColor+Components.m */; };
+		ECBA756E1656C9950088C47F /* UIColor+HEX.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBA75471656C9950088C47F /* UIColor+HEX.m */; };
+		ECBA756F1656C9950088C47F /* UIColor+Interface.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBA75491656C9950088C47F /* UIColor+Interface.m */; };
+		ECBA75701656C9950088C47F /* UIColor+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBA754B1656C9950088C47F /* UIColor+Tint.m */; };
+		ECBA75711656C9950088C47F /* UIImage+PDF.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBA754D1656C9950088C47F /* UIImage+PDF.m */; };
+		ECBA75721656C9950088C47F /* UIImage+Styles.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBA754F1656C9950088C47F /* UIImage+Styles.m */; };
+		ECBA75751656CD1A0088C47F /* disclosure-indicator.png in Resources */ = {isa = PBXBuildFile; fileRef = ECBA75731656CD1A0088C47F /* disclosure-indicator.png */; };
+		ECBA75761656CD1A0088C47F /* disclosure-indicator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECBA75741656CD1A0088C47F /* disclosure-indicator@2x.png */; };
+		ECBA757C1656E9C50088C47F /* UILabel+Tipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBA757B1656E9C50088C47F /* UILabel+Tipulator.m */; };
+		ECBD2D5D165BB19A002D8D53 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECBD2D5C165BB19A002D8D53 /* QuartzCore.framework */; };
+		ECBD2D64165BC37F002D8D53 /* buttonitem-background-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = ECBD2D60165BC37F002D8D53 /* buttonitem-background-highlighted.png */; };
+		ECBD2D65165BC37F002D8D53 /* buttonitem-background-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECBD2D61165BC37F002D8D53 /* buttonitem-background-highlighted@2x.png */; };
+		ECBD2D66165BC37F002D8D53 /* buttonitem-background.png in Resources */ = {isa = PBXBuildFile; fileRef = ECBD2D62165BC37F002D8D53 /* buttonitem-background.png */; };
+		ECBD2D67165BC37F002D8D53 /* buttonitem-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECBD2D63165BC37F002D8D53 /* buttonitem-background@2x.png */; };
+		ECBEBEBA1656802D007DC290 /* candy.png in Resources */ = {isa = PBXBuildFile; fileRef = ECBEBEB81656802D007DC290 /* candy.png */; };
+		ECBEBEBB1656802D007DC290 /* candy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECBEBEB91656802D007DC290 /* candy@2x.png */; };
+		ECBEBEBF16568CEC007DC290 /* TIPGuestCheckCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBEBEBE16568CEC007DC290 /* TIPGuestCheckCell.m */; };
+		ECC11F191667816B0094EF53 /* sophiestication.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC11F171667816B0094EF53 /* sophiestication.png */; };
+		ECC11F1A1667816B0094EF53 /* sophiestication@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC11F181667816B0094EF53 /* sophiestication@2x.png */; };
+		ECC11F21166798B10094EF53 /* content-mask.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC11F20166798B10094EF53 /* content-mask.png */; };
+		ECC11F2D1667BBE70094EF53 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC11F231667BBE70094EF53 /* Icon-Small-50.png */; };
+		ECC11F2E1667BBE70094EF53 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC11F241667BBE70094EF53 /* Icon-Small-50@2x.png */; };
+		ECC11F2F1667BBE70094EF53 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC11F251667BBE70094EF53 /* Icon-Small.png */; };
+		ECC11F301667BBE70094EF53 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC11F261667BBE70094EF53 /* Icon-Small@2x.png */; };
+		ECC11F311667BBE70094EF53 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC11F271667BBE70094EF53 /* Icon.png */; };
+		ECC11F321667BBE70094EF53 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC11F281667BBE70094EF53 /* Icon@2x.png */; };
+		ECC11F331667BBE70094EF53 /* Icon@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC11F291667BBE70094EF53 /* Icon@2x~ipad.png */; };
+		ECC11F341667BBE70094EF53 /* Icon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC11F2A1667BBE70094EF53 /* Icon~ipad.png */; };
+		ECC1B6A0165A733300E30575 /* TIPRoundingOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC1B69F165A733300E30575 /* TIPRoundingOptionsViewController.m */; };
+		ECCA73D61679FB2E0051A54D /* clear-indicator.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCA73D41679FB2E0051A54D /* clear-indicator.png */; };
+		ECCA73D71679FB2E0051A54D /* clear-indicator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCA73D51679FB2E0051A54D /* clear-indicator@2x.png */; };
+		ECCC15B2165D917700728BF4 /* TIPCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCC15B1165D917700728BF4 /* TIPCalculator.m */; };
+		ECE7C238165444EF00F23D76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE7C237165444EF00F23D76 /* UIKit.framework */; };
+		ECE7C23A165444EF00F23D76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE7C239165444EF00F23D76 /* Foundation.framework */; };
+		ECE7C23C165444EF00F23D76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE7C23B165444EF00F23D76 /* CoreGraphics.framework */; };
+		ECE7C26F1654465400F23D76 /* Tipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE7C2601654465400F23D76 /* Tipulator.m */; };
+		ECE7C2701654465400F23D76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE7C2621654465400F23D76 /* main.m */; };
+		ECE7C2711654465400F23D76 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE7C2671654465400F23D76 /* Default-568h@2x.png */; };
+		ECE7C2721654465400F23D76 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE7C2681654465400F23D76 /* Default.png */; };
+		ECE7C2731654465400F23D76 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE7C2691654465400F23D76 /* Default@2x.png */; };
+		ECE7C27B1654493200F23D76 /* TIPGuestCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE7C27A1654493200F23D76 /* TIPGuestCheckViewController.m */; };
+		ECE7C29216544E7700F23D76 /* grouptable-bottom-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE7C28216544E7600F23D76 /* grouptable-bottom-selected.png */; };
+		ECE7C29316544E7700F23D76 /* grouptable-bottom-selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE7C28316544E7600F23D76 /* grouptable-bottom-selected@2x.png */; };
+		ECE7C29416544E7700F23D76 /* grouptable-bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE7C28416544E7600F23D76 /* grouptable-bottom.png */; };
+		ECE7C29516544E7700F23D76 /* grouptable-bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE7C28516544E7600F23D76 /* grouptable-bottom@2x.png */; };
+		ECE7C29616544E7700F23D76 /* grouptable-middle-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE7C28616544E7700F23D76 /* grouptable-middle-selected.png */; };
+		ECE7C29716544E7700F23D76 /* grouptable-middle-selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE7C28716544E7700F23D76 /* grouptable-middle-selected@2x.png */; };
+		ECE7C29816544E7700F23D76 /* grouptable-middle.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE7C28816544E7700F23D76 /* grouptable-middle.png */; };
+		ECE7C29916544E7700F23D76 /* grouptable-middle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE7C28916544E7700F23D76 /* grouptable-middle@2x.png */; };
+		ECE7C29A16544E7700F23D76 /* grouptable-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE7C28A16544E7700F23D76 /* grouptable-selected.png */; };
+		ECE7C29B16544E7700F23D76 /* grouptable-selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE7C28B16544E7700F23D76 /* grouptable-selected@2x.png */; };
+		ECE7C29C16544E7700F23D76 /* grouptable-top-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE7C28C16544E7700F23D76 /* grouptable-top-selected.png */; };
+		ECE7C29D16544E7700F23D76 /* grouptable-top-selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE7C28D16544E7700F23D76 /* grouptable-top-selected@2x.png */; };
+		ECE7C29E16544E7700F23D76 /* grouptable-top.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE7C28E16544E7700F23D76 /* grouptable-top.png */; };
+		ECE7C29F16544E7700F23D76 /* grouptable-top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE7C28F16544E7700F23D76 /* grouptable-top@2x.png */; };
+		ECE7C2A016544E7700F23D76 /* tipulator.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE7C29016544E7700F23D76 /* tipulator.png */; };
+		ECE7C2A116544E7700F23D76 /* tipulator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE7C29116544E7700F23D76 /* tipulator@2x.png */; };
+		ECE7C2A9165579D400F23D76 /* grouptable.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE7C2A7165579D400F23D76 /* grouptable.png */; };
+		ECE7C2AA165579D400F23D76 /* grouptable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE7C2A8165579D400F23D76 /* grouptable@2x.png */; };
+		ECF8F8BD166551C2003EE159 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECF8F8B9166551C2003EE159 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC10C40816BD61D300607671 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC10C40116BD61D200607671 /* HockeySDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1E5954F215B6F24A00A03429;
+			remoteInfo = HockeySDK;
+		};
+		EC10C40A16BD61D300607671 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC10C40116BD61D200607671 /* HockeySDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1E59550A15B6F45800A03429;
+			remoteInfo = HockeySDKResources;
+		};
+		EC10C40C16BD61FC00607671 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC10C40116BD61D200607671 /* HockeySDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E5954CB15B6F24A00A03429;
+			remoteInfo = HockeySDK;
+		};
+		EC10C40E16BD620200607671 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC10C40116BD61D200607671 /* HockeySDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E59550915B6F45800A03429;
+			remoteInfo = HockeySDKResources;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC02999616655590007C0945 /* NSBundle+Localization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Localization.h"; sourceTree = "<group>"; };
+		EC02999716655590007C0945 /* NSBundle+Localization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Localization.m"; sourceTree = "<group>"; };
+		EC02999C166555C3007C0945 /* NSArray+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Additions.h"; sourceTree = "<group>"; };
+		EC02999D166555C3007C0945 /* NSArray+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Additions.m"; sourceTree = "<group>"; };
+		EC10C40116BD61D200607671 /* HockeySDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HockeySDK.xcodeproj; path = Vendor/HockeySDK/Support/HockeySDK.xcodeproj; sourceTree = SOURCE_ROOT; };
+		EC10C41116BD621C00607671 /* CrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CrashReporter.framework; path = Vendor/HockeySDK/Vendor/CrashReporter.framework; sourceTree = "<group>"; };
+		EC10C41416BD629800607671 /* Tipulator.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Tipulator.xcconfig; sourceTree = "<group>"; };
+		EC17E23016655C8D001C17B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EC17E23316655C93001C17B1 /* en_GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en_GB; path = en_GB.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EC17E23416655C9C001C17B1 /* en_CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en_CA; path = en_CA.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EC24496617451FE2004DCB1E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EC6A5A0A165D676400E2D266 /* delicious.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = delicious.aif; sourceTree = "<group>"; };
+		EC6A5A28165D681400E2D266 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EC6F4C751657E20E004090A2 /* TIPNumericKeypadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIPNumericKeypadView.h; sourceTree = "<group>"; };
+		EC6F4C761657E20E004090A2 /* TIPNumericKeypadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIPNumericKeypadView.m; sourceTree = "<group>"; };
+		EC6F4C771657E20E004090A2 /* TIPNumericKeypadButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIPNumericKeypadButton.h; sourceTree = "<group>"; };
+		EC6F4C781657E20E004090A2 /* TIPNumericKeypadButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIPNumericKeypadButton.m; sourceTree = "<group>"; };
+		EC6F4C7F1657E39E004090A2 /* keypad-button-background-highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keypad-button-background-highlighted.png"; sourceTree = "<group>"; };
+		EC6F4C801657E39E004090A2 /* keypad-button-background-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keypad-button-background-highlighted@2x.png"; sourceTree = "<group>"; };
+		EC6F4C811657E39E004090A2 /* keypad-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keypad-background.png"; sourceTree = "<group>"; };
+		EC6F4C821657E39E004090A2 /* keypad-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keypad-background@2x.png"; sourceTree = "<group>"; };
+		EC6F4C871657E39E004090A2 /* keypad-button-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keypad-button-background.png"; sourceTree = "<group>"; };
+		EC6F4C881657E39E004090A2 /* keypad-button-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keypad-button-background@2x.png"; sourceTree = "<group>"; };
+		EC6F4C891657E39E004090A2 /* keypad-button-background-maximized.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keypad-button-background-maximized.png"; sourceTree = "<group>"; };
+		EC6F4C8A1657E39E004090A2 /* keypad-button-background-maximized@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keypad-button-background-maximized@2x.png"; sourceTree = "<group>"; };
+		EC6F4C971657E4CD004090A2 /* TIPNumericKeypadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIPNumericKeypadViewController.h; sourceTree = "<group>"; };
+		EC6F4C981657E4CD004090A2 /* TIPNumericKeypadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIPNumericKeypadViewController.m; sourceTree = "<group>"; };
+		EC848710165D00B40080D31B /* Tipulator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Tipulator.entitlements; path = ../Tipulator.entitlements; sourceTree = "<group>"; };
+		EC8B18221658365A00827D4C /* TIPTipAmountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIPTipAmountViewController.h; sourceTree = "<group>"; };
+		EC8B18231658365A00827D4C /* TIPTipAmountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIPTipAmountViewController.m; sourceTree = "<group>"; };
+		EC8B18271659720D00827D4C /* TIPTaxAmountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIPTaxAmountViewController.h; sourceTree = "<group>"; };
+		EC8B18281659720D00827D4C /* TIPTaxAmountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIPTaxAmountViewController.m; sourceTree = "<group>"; };
+		EC8B182A1659721700827D4C /* TIPSplitCheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIPSplitCheckViewController.h; sourceTree = "<group>"; };
+		EC8B182B1659721700827D4C /* TIPSplitCheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIPSplitCheckViewController.m; sourceTree = "<group>"; };
+		EC8B182F1659899300827D4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/ratings.plist; sourceTree = "<group>"; };
+		EC9648381668CE5300CF4157 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EC96483A1668CF9100CF4157 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		EC96483C1668D4FB00CF4157 /* UserDefaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UserDefaults.plist; sourceTree = "<group>"; };
+		EC9E65451663D2110071BA6D /* UIImage+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additions.h"; sourceTree = "<group>"; };
+		EC9E65461663D2110071BA6D /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = "<group>"; };
+		ECBA75151656A5D50088C47F /* UIColor+Tipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Tipulator.h"; sourceTree = "<group>"; };
+		ECBA75161656A5D50088C47F /* UIColor+Tipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Tipulator.m"; sourceTree = "<group>"; };
+		ECBA75341656C9950088C47F /* SUIImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUIImageCache.h; sourceTree = "<group>"; };
+		ECBA75351656C9950088C47F /* SUIImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUIImageCache.m; sourceTree = "<group>"; };
+		ECBA75361656C9950088C47F /* SUIImageStyles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUIImageStyles.h; sourceTree = "<group>"; };
+		ECBA75371656C9950088C47F /* SUIImageStyles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUIImageStyles.m; sourceTree = "<group>"; };
+		ECBA75381656C9950088C47F /* SUIPDFImageRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUIPDFImageRenderer.h; sourceTree = "<group>"; };
+		ECBA75391656C9950088C47F /* SUIPDFImageRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUIPDFImageRenderer.m; sourceTree = "<group>"; };
+		ECBA753C1656C9950088C47F /* SUIStyledImageRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUIStyledImageRenderer.h; sourceTree = "<group>"; };
+		ECBA753D1656C9950088C47F /* SUIStyledImageRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUIStyledImageRenderer.m; sourceTree = "<group>"; };
+		ECBA75441656C9950088C47F /* UIColor+Components.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Components.h"; sourceTree = "<group>"; };
+		ECBA75451656C9950088C47F /* UIColor+Components.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Components.m"; sourceTree = "<group>"; };
+		ECBA75461656C9950088C47F /* UIColor+HEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HEX.h"; sourceTree = "<group>"; };
+		ECBA75471656C9950088C47F /* UIColor+HEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HEX.m"; sourceTree = "<group>"; };
+		ECBA75481656C9950088C47F /* UIColor+Interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Interface.h"; sourceTree = "<group>"; };
+		ECBA75491656C9950088C47F /* UIColor+Interface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Interface.m"; sourceTree = "<group>"; };
+		ECBA754A1656C9950088C47F /* UIColor+Tint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Tint.h"; sourceTree = "<group>"; };
+		ECBA754B1656C9950088C47F /* UIColor+Tint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Tint.m"; sourceTree = "<group>"; };
+		ECBA754C1656C9950088C47F /* UIImage+PDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PDF.h"; sourceTree = "<group>"; };
+		ECBA754D1656C9950088C47F /* UIImage+PDF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PDF.m"; sourceTree = "<group>"; };
+		ECBA754E1656C9950088C47F /* UIImage+Styles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Styles.h"; sourceTree = "<group>"; };
+		ECBA754F1656C9950088C47F /* UIImage+Styles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Styles.m"; sourceTree = "<group>"; };
+		ECBA75731656CD1A0088C47F /* disclosure-indicator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "disclosure-indicator.png"; sourceTree = "<group>"; };
+		ECBA75741656CD1A0088C47F /* disclosure-indicator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "disclosure-indicator@2x.png"; sourceTree = "<group>"; };
+		ECBA757A1656E9C50088C47F /* UILabel+Tipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Tipulator.h"; sourceTree = "<group>"; };
+		ECBA757B1656E9C50088C47F /* UILabel+Tipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Tipulator.m"; sourceTree = "<group>"; };
+		ECBD2D5C165BB19A002D8D53 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ECBD2D60165BC37F002D8D53 /* buttonitem-background-highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonitem-background-highlighted.png"; sourceTree = "<group>"; };
+		ECBD2D61165BC37F002D8D53 /* buttonitem-background-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonitem-background-highlighted@2x.png"; sourceTree = "<group>"; };
+		ECBD2D62165BC37F002D8D53 /* buttonitem-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonitem-background.png"; sourceTree = "<group>"; };
+		ECBD2D63165BC37F002D8D53 /* buttonitem-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonitem-background@2x.png"; sourceTree = "<group>"; };
+		ECBEBEB81656802D007DC290 /* candy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = candy.png; sourceTree = "<group>"; };
+		ECBEBEB91656802D007DC290 /* candy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "candy@2x.png"; sourceTree = "<group>"; };
+		ECBEBEBD16568CEC007DC290 /* TIPGuestCheckCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIPGuestCheckCell.h; sourceTree = "<group>"; };
+		ECBEBEBE16568CEC007DC290 /* TIPGuestCheckCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIPGuestCheckCell.m; sourceTree = "<group>"; };
+		ECC11F171667816B0094EF53 /* sophiestication.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sophiestication.png; sourceTree = "<group>"; };
+		ECC11F181667816B0094EF53 /* sophiestication@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sophiestication@2x.png"; sourceTree = "<group>"; };
+		ECC11F20166798B10094EF53 /* content-mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "content-mask.png"; sourceTree = "<group>"; };
+		ECC11F231667BBE70094EF53 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		ECC11F241667BBE70094EF53 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		ECC11F251667BBE70094EF53 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		ECC11F261667BBE70094EF53 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		ECC11F271667BBE70094EF53 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		ECC11F281667BBE70094EF53 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		ECC11F291667BBE70094EF53 /* Icon@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x~ipad.png"; sourceTree = "<group>"; };
+		ECC11F2A1667BBE70094EF53 /* Icon~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon~ipad.png"; sourceTree = "<group>"; };
+		ECC11F2B1667BBE70094EF53 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		ECC11F2C1667BBE70094EF53 /* iTunesArtwork@1x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@1x"; sourceTree = "<group>"; };
+		ECC1B69E165A733200E30575 /* TIPRoundingOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIPRoundingOptionsViewController.h; sourceTree = "<group>"; };
+		ECC1B69F165A733300E30575 /* TIPRoundingOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIPRoundingOptionsViewController.m; sourceTree = "<group>"; };
+		ECCA73D41679FB2E0051A54D /* clear-indicator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clear-indicator.png"; sourceTree = "<group>"; };
+		ECCA73D51679FB2E0051A54D /* clear-indicator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clear-indicator@2x.png"; sourceTree = "<group>"; };
+		ECCC15B0165D917700728BF4 /* TIPCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIPCalculator.h; sourceTree = "<group>"; };
+		ECCC15B1165D917700728BF4 /* TIPCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIPCalculator.m; sourceTree = "<group>"; };
+		ECE7C233165444EF00F23D76 /* TipulatorDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipulatorDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE7C237165444EF00F23D76 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ECE7C239165444EF00F23D76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECE7C23B165444EF00F23D76 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ECE7C25F1654465400F23D76 /* Tipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tipulator.h; sourceTree = "<group>"; };
+		ECE7C2601654465400F23D76 /* Tipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tipulator.m; sourceTree = "<group>"; };
+		ECE7C2621654465400F23D76 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		ECE7C2631654465400F23D76 /* Tipulator-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tipulator-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		ECE7C2671654465400F23D76 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ECE7C2681654465400F23D76 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ECE7C2691654465400F23D76 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		ECE7C26E1654465400F23D76 /* Tipulator-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Tipulator-Info.plist"; sourceTree = "<group>"; };
+		ECE7C2791654493200F23D76 /* TIPGuestCheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIPGuestCheckViewController.h; sourceTree = "<group>"; };
+		ECE7C27A1654493200F23D76 /* TIPGuestCheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIPGuestCheckViewController.m; sourceTree = "<group>"; };
+		ECE7C27C16544C7500F23D76 /* background-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-568h@2x.png"; sourceTree = "<group>"; };
+		ECE7C27D16544C7500F23D76 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		ECE7C27E16544C7500F23D76 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		ECE7C28216544E7600F23D76 /* grouptable-bottom-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grouptable-bottom-selected.png"; sourceTree = "<group>"; };
+		ECE7C28316544E7600F23D76 /* grouptable-bottom-selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grouptable-bottom-selected@2x.png"; sourceTree = "<group>"; };
+		ECE7C28416544E7600F23D76 /* grouptable-bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grouptable-bottom.png"; sourceTree = "<group>"; };
+		ECE7C28516544E7600F23D76 /* grouptable-bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grouptable-bottom@2x.png"; sourceTree = "<group>"; };
+		ECE7C28616544E7700F23D76 /* grouptable-middle-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grouptable-middle-selected.png"; sourceTree = "<group>"; };
+		ECE7C28716544E7700F23D76 /* grouptable-middle-selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grouptable-middle-selected@2x.png"; sourceTree = "<group>"; };
+		ECE7C28816544E7700F23D76 /* grouptable-middle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grouptable-middle.png"; sourceTree = "<group>"; };
+		ECE7C28916544E7700F23D76 /* grouptable-middle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grouptable-middle@2x.png"; sourceTree = "<group>"; };
+		ECE7C28A16544E7700F23D76 /* grouptable-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grouptable-selected.png"; sourceTree = "<group>"; };
+		ECE7C28B16544E7700F23D76 /* grouptable-selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grouptable-selected@2x.png"; sourceTree = "<group>"; };
+		ECE7C28C16544E7700F23D76 /* grouptable-top-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grouptable-top-selected.png"; sourceTree = "<group>"; };
+		ECE7C28D16544E7700F23D76 /* grouptable-top-selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grouptable-top-selected@2x.png"; sourceTree = "<group>"; };
+		ECE7C28E16544E7700F23D76 /* grouptable-top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grouptable-top.png"; sourceTree = "<group>"; };
+		ECE7C28F16544E7700F23D76 /* grouptable-top@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grouptable-top@2x.png"; sourceTree = "<group>"; };
+		ECE7C29016544E7700F23D76 /* tipulator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tipulator.png; sourceTree = "<group>"; };
+		ECE7C29116544E7700F23D76 /* tipulator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tipulator@2x.png"; sourceTree = "<group>"; };
+		ECE7C2A7165579D400F23D76 /* grouptable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grouptable.png; sourceTree = "<group>"; };
+		ECE7C2A8165579D400F23D76 /* grouptable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grouptable@2x.png"; sourceTree = "<group>"; };
+		ECF8F8BA166551C2003EE159 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECE7C230165444EF00F23D76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE7C238165444EF00F23D76 /* UIKit.framework in Frameworks */,
+				ECE7C23A165444EF00F23D76 /* Foundation.framework in Frameworks */,
+				ECE7C23C165444EF00F23D76 /* CoreGraphics.framework in Frameworks */,
+				ECBD2D5D165BB19A002D8D53 /* QuartzCore.framework in Frameworks */,
+				EC6A5A29165D681400E2D266 /* AVFoundation.framework in Frameworks */,
+				EC9648391668CE5300CF4157 /* AudioToolbox.framework in Frameworks */,
+				EC24496717451FE2004DCB1E /* Security.framework in Frameworks */,
+				EC10C41216BD621C00607671 /* CrashReporter.framework in Frameworks */,
+				EC10C41016BD620800607671 /* libHockeySDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC10C40216BD61D200607671 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC10C40916BD61D300607671 /* libHockeySDK.a */,
+				EC10C40B16BD61D300607671 /* HockeySDKResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC6F4C571657E1BE004090A2 /* Numeric Keypad */ = {
+			isa = PBXGroup;
+			children = (
+				EC6F4C7E1657E343004090A2 /* Resources */,
+				EC6F4C971657E4CD004090A2 /* TIPNumericKeypadViewController.h */,
+				EC6F4C981657E4CD004090A2 /* TIPNumericKeypadViewController.m */,
+				EC6F4C751657E20E004090A2 /* TIPNumericKeypadView.h */,
+				EC6F4C761657E20E004090A2 /* TIPNumericKeypadView.m */,
+				EC6F4C771657E20E004090A2 /* TIPNumericKeypadButton.h */,
+				EC6F4C781657E20E004090A2 /* TIPNumericKeypadButton.m */,
+			);
+			name = "Numeric Keypad";
+			sourceTree = "<group>";
+		};
+		EC6F4C7E1657E343004090A2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC6F4C811657E39E004090A2 /* keypad-background.png */,
+				EC6F4C821657E39E004090A2 /* keypad-background@2x.png */,
+				EC6F4C871657E39E004090A2 /* keypad-button-background.png */,
+				EC6F4C881657E39E004090A2 /* keypad-button-background@2x.png */,
+				EC6F4C7F1657E39E004090A2 /* keypad-button-background-highlighted.png */,
+				EC6F4C801657E39E004090A2 /* keypad-button-background-highlighted@2x.png */,
+				EC6F4C891657E39E004090A2 /* keypad-button-background-maximized.png */,
+				EC6F4C8A1657E39E004090A2 /* keypad-button-background-maximized@2x.png */,
+			);
+			name = Resources;
+			path = Resources/Images;
+			sourceTree = SOURCE_ROOT;
+		};
+		EC8B18211658362800827D4C /* Tip Amount View */ = {
+			isa = PBXGroup;
+			children = (
+				EC8B182D16597CEE00827D4C /* Resources */,
+				EC8B18221658365A00827D4C /* TIPTipAmountViewController.h */,
+				EC8B18231658365A00827D4C /* TIPTipAmountViewController.m */,
+			);
+			name = "Tip Amount View";
+			sourceTree = "<group>";
+		};
+		EC8B1825165971DF00827D4C /* Tax Amount View */ = {
+			isa = PBXGroup;
+			children = (
+				EC8B18271659720D00827D4C /* TIPTaxAmountViewController.h */,
+				EC8B18281659720D00827D4C /* TIPTaxAmountViewController.m */,
+			);
+			name = "Tax Amount View";
+			sourceTree = "<group>";
+		};
+		EC8B1826165971E900827D4C /* Split Check View */ = {
+			isa = PBXGroup;
+			children = (
+				EC8B182A1659721700827D4C /* TIPSplitCheckViewController.h */,
+				EC8B182B1659721700827D4C /* TIPSplitCheckViewController.m */,
+			);
+			name = "Split Check View";
+			sourceTree = "<group>";
+		};
+		EC8B182D16597CEE00827D4C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC8B182E1659899300827D4C /* ratings.plist */,
+			);
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		ECBA75181656C9950088C47F /* Image Styles */ = {
+			isa = PBXGroup;
+			children = (
+				ECBA75341656C9950088C47F /* SUIImageCache.h */,
+				ECBA75351656C9950088C47F /* SUIImageCache.m */,
+				ECBA75361656C9950088C47F /* SUIImageStyles.h */,
+				ECBA75371656C9950088C47F /* SUIImageStyles.m */,
+				ECBA753C1656C9950088C47F /* SUIStyledImageRenderer.h */,
+				ECBA753D1656C9950088C47F /* SUIStyledImageRenderer.m */,
+				ECBA75381656C9950088C47F /* SUIPDFImageRenderer.h */,
+				ECBA75391656C9950088C47F /* SUIPDFImageRenderer.m */,
+				ECBA75441656C9950088C47F /* UIColor+Components.h */,
+				ECBA75451656C9950088C47F /* UIColor+Components.m */,
+				ECBA75461656C9950088C47F /* UIColor+HEX.h */,
+				ECBA75471656C9950088C47F /* UIColor+HEX.m */,
+				ECBA75481656C9950088C47F /* UIColor+Interface.h */,
+				ECBA75491656C9950088C47F /* UIColor+Interface.m */,
+				ECBA754A1656C9950088C47F /* UIColor+Tint.h */,
+				ECBA754B1656C9950088C47F /* UIColor+Tint.m */,
+				ECBA754E1656C9950088C47F /* UIImage+Styles.h */,
+				ECBA754F1656C9950088C47F /* UIImage+Styles.m */,
+				ECBA754C1656C9950088C47F /* UIImage+PDF.h */,
+				ECBA754D1656C9950088C47F /* UIImage+PDF.m */,
+			);
+			name = "Image Styles";
+			path = SophiestiKit;
+			sourceTree = "<group>";
+		};
+		ECC1B6A2165A733600E30575 /* Rounding Options View */ = {
+			isa = PBXGroup;
+			children = (
+				ECC1B69E165A733200E30575 /* TIPRoundingOptionsViewController.h */,
+				ECC1B69F165A733300E30575 /* TIPRoundingOptionsViewController.m */,
+			);
+			name = "Rounding Options View";
+			sourceTree = "<group>";
+		};
+		ECCC15AE165D916000728BF4 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				ECCC15B0165D917700728BF4 /* TIPCalculator.h */,
+				ECCC15B1165D917700728BF4 /* TIPCalculator.m */,
+			);
+			name = Calculator;
+			sourceTree = "<group>";
+		};
+		ECE7C228165444EF00F23D76 = {
+			isa = PBXGroup;
+			children = (
+				ECE7C25E1654465400F23D76 /* Classes */,
+				ECE7C2641654465400F23D76 /* Resources */,
+				EC96483A1668CF9100CF4157 /* Settings.bundle */,
+				ECE7C2611654465400F23D76 /* Other Sources */,
+				ECE7C236165444EF00F23D76 /* Frameworks */,
+				ECE7C234165444EF00F23D76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECE7C234165444EF00F23D76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECE7C233165444EF00F23D76 /* TipulatorDebug.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECE7C236165444EF00F23D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECE7C237165444EF00F23D76 /* UIKit.framework */,
+				ECE7C239165444EF00F23D76 /* Foundation.framework */,
+				EC6A5A28165D681400E2D266 /* AVFoundation.framework */,
+				EC9648381668CE5300CF4157 /* AudioToolbox.framework */,
+				ECE7C23B165444EF00F23D76 /* CoreGraphics.framework */,
+				ECBD2D5C165BB19A002D8D53 /* QuartzCore.framework */,
+				EC24496617451FE2004DCB1E /* Security.framework */,
+				EC10C41116BD621C00607671 /* CrashReporter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECE7C25E1654465400F23D76 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ECE7C2761654482000F23D76 /* Foundation */,
+				ECE7C2771654482600F23D76 /* Additions */,
+				ECCC15AE165D916000728BF4 /* Calculator */,
+				ECE7C2781654483A00F23D76 /* Guest Check View */,
+				EC6F4C571657E1BE004090A2 /* Numeric Keypad */,
+				EC8B18211658362800827D4C /* Tip Amount View */,
+				EC8B1825165971DF00827D4C /* Tax Amount View */,
+				ECC1B6A2165A733600E30575 /* Rounding Options View */,
+				EC8B1826165971E900827D4C /* Split Check View */,
+				ECE7C25F1654465400F23D76 /* Tipulator.h */,
+				ECE7C2601654465400F23D76 /* Tipulator.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		ECE7C2611654465400F23D76 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				ECE7C2631654465400F23D76 /* Tipulator-Prefix.pch */,
+				ECE7C2621654465400F23D76 /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = SOURCE_ROOT;
+		};
+		ECE7C2641654465400F23D76 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC10C41416BD629800607671 /* Tipulator.xcconfig */,
+				ECE7C2651654465400F23D76 /* App Icons */,
+				ECE7C2661654465400F23D76 /* Default Images */,
+				ECE7C26C1654465400F23D76 /* Images */,
+				ECE7C26D1654465400F23D76 /* Sounds */,
+				ECE7C26E1654465400F23D76 /* Tipulator-Info.plist */,
+				EC848710165D00B40080D31B /* Tipulator.entitlements */,
+				ECF8F8B9166551C2003EE159 /* InfoPlist.strings */,
+				EC17E22F16655C8D001C17B1 /* Localizable.strings */,
+				EC96483C1668D4FB00CF4157 /* UserDefaults.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ECE7C2651654465400F23D76 /* App Icons */ = {
+			isa = PBXGroup;
+			children = (
+				ECC11F271667BBE70094EF53 /* Icon.png */,
+				ECC11F281667BBE70094EF53 /* Icon@2x.png */,
+				ECC11F2A1667BBE70094EF53 /* Icon~ipad.png */,
+				ECC11F291667BBE70094EF53 /* Icon@2x~ipad.png */,
+				ECC11F251667BBE70094EF53 /* Icon-Small.png */,
+				ECC11F261667BBE70094EF53 /* Icon-Small@2x.png */,
+				ECC11F231667BBE70094EF53 /* Icon-Small-50.png */,
+				ECC11F241667BBE70094EF53 /* Icon-Small-50@2x.png */,
+				ECC11F2B1667BBE70094EF53 /* iTunesArtwork */,
+				ECC11F2C1667BBE70094EF53 /* iTunesArtwork@1x */,
+			);
+			path = "App Icons";
+			sourceTree = "<group>";
+		};
+		ECE7C2661654465400F23D76 /* Default Images */ = {
+			isa = PBXGroup;
+			children = (
+				ECE7C2671654465400F23D76 /* Default-568h@2x.png */,
+				ECE7C2681654465400F23D76 /* Default.png */,
+				ECE7C2691654465400F23D76 /* Default@2x.png */,
+			);
+			path = "Default Images";
+			sourceTree = "<group>";
+		};
+		ECE7C26C1654465400F23D76 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				ECBEBEB81656802D007DC290 /* candy.png */,
+				ECBEBEB91656802D007DC290 /* candy@2x.png */,
+				ECE7C27D16544C7500F23D76 /* background.png */,
+				ECE7C27E16544C7500F23D76 /* background@2x.png */,
+				ECE7C27C16544C7500F23D76 /* background-568h@2x.png */,
+				ECE7C29016544E7700F23D76 /* tipulator.png */,
+				ECE7C29116544E7700F23D76 /* tipulator@2x.png */,
+				ECE7C2A7165579D400F23D76 /* grouptable.png */,
+				ECE7C2A8165579D400F23D76 /* grouptable@2x.png */,
+				ECE7C28A16544E7700F23D76 /* grouptable-selected.png */,
+				ECE7C28B16544E7700F23D76 /* grouptable-selected@2x.png */,
+				ECE7C28C16544E7700F23D76 /* grouptable-top-selected.png */,
+				ECE7C28D16544E7700F23D76 /* grouptable-top-selected@2x.png */,
+				ECE7C28E16544E7700F23D76 /* grouptable-top.png */,
+				ECE7C28F16544E7700F23D76 /* grouptable-top@2x.png */,
+				ECE7C28616544E7700F23D76 /* grouptable-middle-selected.png */,
+				ECE7C28716544E7700F23D76 /* grouptable-middle-selected@2x.png */,
+				ECE7C28816544E7700F23D76 /* grouptable-middle.png */,
+				ECE7C28916544E7700F23D76 /* grouptable-middle@2x.png */,
+				ECE7C28216544E7600F23D76 /* grouptable-bottom-selected.png */,
+				ECE7C28316544E7600F23D76 /* grouptable-bottom-selected@2x.png */,
+				ECE7C28416544E7600F23D76 /* grouptable-bottom.png */,
+				ECE7C28516544E7600F23D76 /* grouptable-bottom@2x.png */,
+				ECBA75731656CD1A0088C47F /* disclosure-indicator.png */,
+				ECBA75741656CD1A0088C47F /* disclosure-indicator@2x.png */,
+				ECCA73D41679FB2E0051A54D /* clear-indicator.png */,
+				ECCA73D51679FB2E0051A54D /* clear-indicator@2x.png */,
+				ECBD2D62165BC37F002D8D53 /* buttonitem-background.png */,
+				ECBD2D63165BC37F002D8D53 /* buttonitem-background@2x.png */,
+				ECBD2D60165BC37F002D8D53 /* buttonitem-background-highlighted.png */,
+				ECBD2D61165BC37F002D8D53 /* buttonitem-background-highlighted@2x.png */,
+				ECC11F171667816B0094EF53 /* sophiestication.png */,
+				ECC11F181667816B0094EF53 /* sophiestication@2x.png */,
+				ECC11F20166798B10094EF53 /* content-mask.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		ECE7C26D1654465400F23D76 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				EC6A5A0A165D676400E2D266 /* delicious.aif */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		ECE7C2761654482000F23D76 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				EC10C40116BD61D200607671 /* HockeySDK.xcodeproj */,
+				ECBA75181656C9950088C47F /* Image Styles */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		ECE7C2771654482600F23D76 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				EC02999C166555C3007C0945 /* NSArray+Additions.h */,
+				EC02999D166555C3007C0945 /* NSArray+Additions.m */,
+				EC02999616655590007C0945 /* NSBundle+Localization.h */,
+				EC02999716655590007C0945 /* NSBundle+Localization.m */,
+				ECBA75151656A5D50088C47F /* UIColor+Tipulator.h */,
+				ECBA75161656A5D50088C47F /* UIColor+Tipulator.m */,
+				EC9E65451663D2110071BA6D /* UIImage+Additions.h */,
+				EC9E65461663D2110071BA6D /* UIImage+Additions.m */,
+				ECBA757A1656E9C50088C47F /* UILabel+Tipulator.h */,
+				ECBA757B1656E9C50088C47F /* UILabel+Tipulator.m */,
+			);
+			name = Additions;
+			sourceTree = "<group>";
+		};
+		ECE7C2781654483A00F23D76 /* Guest Check View */ = {
+			isa = PBXGroup;
+			children = (
+				ECE7C2791654493200F23D76 /* TIPGuestCheckViewController.h */,
+				ECE7C27A1654493200F23D76 /* TIPGuestCheckViewController.m */,
+				ECBEBEBD16568CEC007DC290 /* TIPGuestCheckCell.h */,
+				ECBEBEBE16568CEC007DC290 /* TIPGuestCheckCell.m */,
+			);
+			name = "Guest Check View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECE7C232165444EF00F23D76 /* Tipulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECE7C251165444EF00F23D76 /* Build configuration list for PBXNativeTarget "Tipulator" */;
+			buildPhases = (
+				ECE7C22F165444EF00F23D76 /* Sources */,
+				ECE7C230165444EF00F23D76 /* Frameworks */,
+				ECE7C231165444EF00F23D76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC10C40F16BD620200607671 /* PBXTargetDependency */,
+				EC10C40D16BD61FC00607671 /* PBXTargetDependency */,
+			);
+			name = Tipulator;
+			productName = Tipulator;
+			productReference = ECE7C233165444EF00F23D76 /* TipulatorDebug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECE7C22A165444EF00F23D76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TIP;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Sophia Teutschler";
+			};
+			buildConfigurationList = ECE7C22D165444EF00F23D76 /* Build configuration list for PBXProject "Tipulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				en_GB,
+				en_CA,
+			);
+			mainGroup = ECE7C228165444EF00F23D76;
+			productRefGroup = ECE7C234165444EF00F23D76 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = EC10C40216BD61D200607671 /* Products */;
+					ProjectRef = EC10C40116BD61D200607671 /* HockeySDK.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				ECE7C232165444EF00F23D76 /* Tipulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		EC10C40916BD61D300607671 /* libHockeySDK.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libHockeySDK.a;
+			remoteRef = EC10C40816BD61D300607671 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EC10C40B16BD61D300607671 /* HockeySDKResources.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = HockeySDKResources.bundle;
+			remoteRef = EC10C40A16BD61D300607671 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECE7C231165444EF00F23D76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE7C2711654465400F23D76 /* Default-568h@2x.png in Resources */,
+				ECE7C2721654465400F23D76 /* Default.png in Resources */,
+				ECE7C2731654465400F23D76 /* Default@2x.png in Resources */,
+				ECE7C29216544E7700F23D76 /* grouptable-bottom-selected.png in Resources */,
+				ECE7C29316544E7700F23D76 /* grouptable-bottom-selected@2x.png in Resources */,
+				ECE7C29416544E7700F23D76 /* grouptable-bottom.png in Resources */,
+				ECE7C29516544E7700F23D76 /* grouptable-bottom@2x.png in Resources */,
+				ECE7C29616544E7700F23D76 /* grouptable-middle-selected.png in Resources */,
+				ECE7C29716544E7700F23D76 /* grouptable-middle-selected@2x.png in Resources */,
+				ECE7C29816544E7700F23D76 /* grouptable-middle.png in Resources */,
+				ECE7C29916544E7700F23D76 /* grouptable-middle@2x.png in Resources */,
+				ECE7C29A16544E7700F23D76 /* grouptable-selected.png in Resources */,
+				ECE7C29B16544E7700F23D76 /* grouptable-selected@2x.png in Resources */,
+				ECE7C29C16544E7700F23D76 /* grouptable-top-selected.png in Resources */,
+				ECE7C29D16544E7700F23D76 /* grouptable-top-selected@2x.png in Resources */,
+				ECE7C29E16544E7700F23D76 /* grouptable-top.png in Resources */,
+				ECE7C29F16544E7700F23D76 /* grouptable-top@2x.png in Resources */,
+				ECE7C2A016544E7700F23D76 /* tipulator.png in Resources */,
+				ECE7C2A116544E7700F23D76 /* tipulator@2x.png in Resources */,
+				ECE7C2A9165579D400F23D76 /* grouptable.png in Resources */,
+				ECE7C2AA165579D400F23D76 /* grouptable@2x.png in Resources */,
+				ECBEBEBA1656802D007DC290 /* candy.png in Resources */,
+				ECBEBEBB1656802D007DC290 /* candy@2x.png in Resources */,
+				ECBA75751656CD1A0088C47F /* disclosure-indicator.png in Resources */,
+				ECBA75761656CD1A0088C47F /* disclosure-indicator@2x.png in Resources */,
+				EC6F4C8B1657E39E004090A2 /* keypad-button-background-highlighted.png in Resources */,
+				EC6F4C8C1657E39E004090A2 /* keypad-button-background-highlighted@2x.png in Resources */,
+				EC6F4C8D1657E39E004090A2 /* keypad-background.png in Resources */,
+				EC6F4C8E1657E39E004090A2 /* keypad-background@2x.png in Resources */,
+				EC6F4C931657E39E004090A2 /* keypad-button-background.png in Resources */,
+				EC6F4C941657E39E004090A2 /* keypad-button-background@2x.png in Resources */,
+				EC6F4C951657E39E004090A2 /* keypad-button-background-maximized.png in Resources */,
+				EC6F4C961657E39E004090A2 /* keypad-button-background-maximized@2x.png in Resources */,
+				EC8B18301659899300827D4C /* ratings.plist in Resources */,
+				ECBD2D64165BC37F002D8D53 /* buttonitem-background-highlighted.png in Resources */,
+				ECBD2D65165BC37F002D8D53 /* buttonitem-background-highlighted@2x.png in Resources */,
+				ECBD2D66165BC37F002D8D53 /* buttonitem-background.png in Resources */,
+				ECBD2D67165BC37F002D8D53 /* buttonitem-background@2x.png in Resources */,
+				EC6A5A0B165D676400E2D266 /* delicious.aif in Resources */,
+				ECF8F8BD166551C2003EE159 /* InfoPlist.strings in Resources */,
+				EC17E23116655C8D001C17B1 /* Localizable.strings in Resources */,
+				ECC11F191667816B0094EF53 /* sophiestication.png in Resources */,
+				ECC11F1A1667816B0094EF53 /* sophiestication@2x.png in Resources */,
+				ECC11F21166798B10094EF53 /* content-mask.png in Resources */,
+				ECC11F2D1667BBE70094EF53 /* Icon-Small-50.png in Resources */,
+				ECC11F2E1667BBE70094EF53 /* Icon-Small-50@2x.png in Resources */,
+				ECC11F2F1667BBE70094EF53 /* Icon-Small.png in Resources */,
+				ECC11F301667BBE70094EF53 /* Icon-Small@2x.png in Resources */,
+				ECC11F311667BBE70094EF53 /* Icon.png in Resources */,
+				ECC11F321667BBE70094EF53 /* Icon@2x.png in Resources */,
+				ECC11F331667BBE70094EF53 /* Icon@2x~ipad.png in Resources */,
+				ECC11F341667BBE70094EF53 /* Icon~ipad.png in Resources */,
+				EC96483B1668CF9100CF4157 /* Settings.bundle in Resources */,
+				EC96483D1668D4FB00CF4157 /* UserDefaults.plist in Resources */,
+				EC2D3FE8166A64DE005A5C78 /* background.png in Resources */,
+				EC2D3FE9166A64DE005A5C78 /* background@2x.png in Resources */,
+				EC2D3FEA166A64DE005A5C78 /* background-568h@2x.png in Resources */,
+				ECCA73D61679FB2E0051A54D /* clear-indicator.png in Resources */,
+				ECCA73D71679FB2E0051A54D /* clear-indicator@2x.png in Resources */,
+				EC10C41316BD624400607671 /* HockeySDKResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECE7C22F165444EF00F23D76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE7C2701654465400F23D76 /* main.m in Sources */,
+				ECE7C26F1654465400F23D76 /* Tipulator.m in Sources */,
+				ECE7C27B1654493200F23D76 /* TIPGuestCheckViewController.m in Sources */,
+				ECBEBEBF16568CEC007DC290 /* TIPGuestCheckCell.m in Sources */,
+				ECBA75171656A5D50088C47F /* UIColor+Tipulator.m in Sources */,
+				ECBA75651656C9950088C47F /* SUIImageCache.m in Sources */,
+				ECBA75661656C9950088C47F /* SUIImageStyles.m in Sources */,
+				ECBA75671656C9950088C47F /* SUIPDFImageRenderer.m in Sources */,
+				ECBA75691656C9950088C47F /* SUIStyledImageRenderer.m in Sources */,
+				ECBA756D1656C9950088C47F /* UIColor+Components.m in Sources */,
+				ECBA756E1656C9950088C47F /* UIColor+HEX.m in Sources */,
+				ECBA756F1656C9950088C47F /* UIColor+Interface.m in Sources */,
+				ECBA75701656C9950088C47F /* UIColor+Tint.m in Sources */,
+				ECBA75711656C9950088C47F /* UIImage+PDF.m in Sources */,
+				ECBA75721656C9950088C47F /* UIImage+Styles.m in Sources */,
+				ECBA757C1656E9C50088C47F /* UILabel+Tipulator.m in Sources */,
+				EC6F4C7B1657E20E004090A2 /* TIPNumericKeypadView.m in Sources */,
+				EC6F4C7C1657E20E004090A2 /* TIPNumericKeypadButton.m in Sources */,
+				EC6F4C991657E4CD004090A2 /* TIPNumericKeypadViewController.m in Sources */,
+				EC8B18241658365A00827D4C /* TIPTipAmountViewController.m in Sources */,
+				EC8B182C1659721700827D4C /* TIPSplitCheckViewController.m in Sources */,
+				ECC1B6A0165A733300E30575 /* TIPRoundingOptionsViewController.m in Sources */,
+				ECCC15B2165D917700728BF4 /* TIPCalculator.m in Sources */,
+				EC9E65471663D2110071BA6D /* UIImage+Additions.m in Sources */,
+				EC02999816655590007C0945 /* NSBundle+Localization.m in Sources */,
+				EC02999E166555C3007C0945 /* NSArray+Additions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC10C40D16BD61FC00607671 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HockeySDK;
+			targetProxy = EC10C40C16BD61FC00607671 /* PBXContainerItemProxy */;
+		};
+		EC10C40F16BD620200607671 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HockeySDKResources;
+			targetProxy = EC10C40E16BD620200607671 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC17E22F16655C8D001C17B1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC17E23016655C8D001C17B1 /* en */,
+				EC17E23316655C93001C17B1 /* en_GB */,
+				EC17E23416655C9C001C17B1 /* en_CA */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		EC8B182E1659899300827D4C /* ratings.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC8B182F1659899300827D4C /* en */,
+			);
+			name = ratings.plist;
+			sourceTree = "<group>";
+		};
+		ECF8F8B9166551C2003EE159 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECF8F8BA166551C2003EE159 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECBD2D5E165BB261002D8D53 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC10C41416BD629800607671 /* Tipulator.xcconfig */;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Beta;
+		};
+		ECBD2D5F165BB261002D8D53 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPIDENTIFIER_PREFIX = com.sophiestication;
+				APPLY_RULES_IN_COPY_FILES = YES;
+				CODE_SIGN_ENTITLEMENTS = Tipulator.entitlements;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/Vendor/HockeySDK/Classes",
+					"$(SRCROOT)/Vendor/HockeySDK/Vendor",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tipulator-Prefix.pch";
+				INFOPLIST_FILE = "Resources/Tipulator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)Beta";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Beta;
+		};
+		ECE7C24F165444EF00F23D76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC10C41416BD629800607671 /* Tipulator.xcconfig */;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECE7C250165444EF00F23D76 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC10C41416BD629800607671 /* Tipulator.xcconfig */;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sophia Teutschler (74BP53VAWB)";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "4E2D1781-ECEC-4681-A815-D6C5181DAE50";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		ECE7C252165444EF00F23D76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPIDENTIFIER_PREFIX = com.sophiestication;
+				CODE_SIGN_ENTITLEMENTS = Tipulator.entitlements;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/Vendor/HockeySDK/Classes",
+					"$(SRCROOT)/Vendor/HockeySDK/Vendor",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tipulator-Prefix.pch";
+				INFOPLIST_FILE = "Resources/Tipulator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)Debug";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ECE7C253165444EF00F23D76 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPIDENTIFIER_PREFIX = com.taptaptap;
+				APPLY_RULES_IN_COPY_FILES = YES;
+				CODE_SIGN_ENTITLEMENTS = Tipulator.entitlements;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/Vendor/HockeySDK/Classes",
+					"$(SRCROOT)/Vendor/HockeySDK/Vendor",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tipulator-Prefix.pch";
+				INFOPLIST_FILE = "Resources/Tipulator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECE7C22D165444EF00F23D76 /* Build configuration list for PBXProject "Tipulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE7C24F165444EF00F23D76 /* Debug */,
+				ECE7C250165444EF00F23D76 /* Distribution */,
+				ECBD2D5E165BB261002D8D53 /* Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+		ECE7C251165444EF00F23D76 /* Build configuration list for PBXNativeTarget "Tipulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE7C252165444EF00F23D76 /* Debug */,
+				ECE7C253165444EF00F23D76 /* Distribution */,
+				ECBD2D5F165BB261002D8D53 /* Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECE7C22A165444EF00F23D76 /* Project object */;
+}

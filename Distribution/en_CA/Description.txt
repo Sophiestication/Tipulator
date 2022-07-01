@@ -1,0 +1,21 @@
+Tipulator is a beautiful, fun and easy to use tip calculator for your iPhone and iPod touch.
+
+Tipulator allows you to:
+- Easily split the cheque among friends and colleagues.
+- Choose from various rounding options.
+- Calculate tips excluding sales tax.
+- Use the palindrome feature to prevent frauds.
+
+Give it a try and tell us what you think.
+
+
+APP KEYWORDS
+Tip,Tips,Tip Calculator,Tipping,Tipper,Calculator,TipCalc,Gratuitous,iTip,Split,Bill,Cheque
+
+
+Tipulator 3.0
+- A whole new fresh and modernized design, ideal for the iPhone 5 and iPod touch (5th Generation).
+- Calculate totals excluding sales tax.
+- Disable "Shake to Clear" in the System Settings.
+⚠ Tipulator now requires iOS 6.0 or later.
+⚠ We removed the palindrome feature since it confused too many customers.
